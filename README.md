@@ -1,9 +1,6 @@
 This github repository has four projects all in one repo. But when you do this yourself, you'll want to have one git repo per angular application. 
 The root-html-file project should also be in its own repo. This is what lets different teams and developers be in charge of different microfrontends.
 
-Local development -- one app at a time
-Tutorial video
-
 With single-spa, it is preferred to run ng serve in only one single-spa application at a time, while using a deployed version of the other applications. This makes for an awesome developer experience where you can boot up just one microfrontend at a time, not even having to clone, npm install, or boot up all of the other ones.
 
 To try this out, clone the repo and run the following commands:
