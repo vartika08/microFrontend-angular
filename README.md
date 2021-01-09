@@ -18,19 +18,19 @@ npm start
 
 It is preferred to only run one app at a time. But if you need to run them all locally, you can do so with the following instructions
 
-* First terminal tab
-cd root-html-file
-npm install
+* First terminal tab >
+cd root-html-file >
+npm install >
 npm start
 
 * Second terminal tab
-cd app1
-npm install
+cd app1 >
+npm install >
 npm start
 
 * Third terminal tab
-cd app2
-npm install
+cd app2 >
+npm install >
 npm start
 
 * Fourth terminal tab
