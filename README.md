@@ -8,25 +8,25 @@ With single-spa, it is preferred to run ng serve in only one single-spa applicat
 
 To try this out, clone the repo and run the following commands:
 
-Local development -- one app at a time
+# Local development -- one app at a time
 
 cd app1
 npm i
 npm start
 
-Local development -- all at once
+# Local development -- all at once
 
 It is preferred to only run one app at a time. But if you need to run them all locally, you can do so with the following instructions
 
-# First terminal tab
+First terminal tab
 cd root-html-file
 npm install
 npm start
-# Second terminal tab
+Second terminal tab
 cd app1
 npm install
 npm start
-# Third terminal tab
+Third terminal tab
 cd app2
 npm install
 npm start
